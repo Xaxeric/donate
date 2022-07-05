@@ -1,0 +1,23 @@
+/* ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+   ┃              THIS IS FILE INTENDED TO STORE STYLE FOR HTML TAG               ┃
+   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ */
+html {
+    background-color: #000000; /* Set the background-color */
+    color: #fff;
+}
+
+header {
+    justify-items: center; /* Defines the default justify-self for all items of the box, giving them the default way of justifying each box along the appropriate axis */
+    align-items: center; /* Aligns flex items along the cross axis of the current line of the flex container. */
+    text-align: center; /* Describes how inline contents of a block are horizontally aligned if the contents do not completely fill the line box. */
+}
+header img { /* Define style for img in main tag */
+    max-width: 100%; /* Allows authors to constrain content width to a certain range. */
+    height: auto; /* Specifies the height of the content area, padding area or border area (depending on 'box-sizing') of certain boxes. */
+}
+
+main {
+    justify-items: center; /* Defines the default justify-self for all items of the box, giving them the default way of justifying each box along the appropriate axis */
+    align-items: center; /* Aligns flex items along the cross axis of the current line of the flex container. */
+    text-align: center; /* Describes how inline contents of a block are horizontally aligned if the contents do not completely fill the line box. */
+}

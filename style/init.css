@@ -6,6 +6,9 @@ html {
     color: #fff;
 }
 
+ /* ╭──────────────────────────────────────────────────────────────────────────────╮ */
+ /* │                                    HEADER                                    │ */
+ /* ╰──────────────────────────────────────────────────────────────────────────────╯ */
 header {
     justify-items: center; /* Defines the default justify-self for all items of the box, giving them the default way of justifying each box along the appropriate axis */
     align-items: center; /* Aligns flex items along the cross axis of the current line of the flex container. */
@@ -20,4 +23,5 @@ main {
     justify-items: center; /* Defines the default justify-self for all items of the box, giving them the default way of justifying each box along the appropriate axis */
     align-items: center; /* Aligns flex items along the cross axis of the current line of the flex container. */
     text-align: center; /* Describes how inline contents of a block are horizontally aligned if the contents do not completely fill the line box. */
+    word-wrap: break-word; /* Specifies whether the UA may break within a word to prevent overflow when an otherwise-unbreakable string is too long to fit. */
 }
